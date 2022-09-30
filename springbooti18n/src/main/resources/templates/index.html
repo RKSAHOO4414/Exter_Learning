@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th=https://www.thymeleaf.org>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<p> <a th:href="@{/locale(language=en)}" th:text=#{index.locale.en}> English </a> </p>
+	
+	<p> <a th:href="@{/locale(language=fr)}" th:text=#{index.locale.fr}> French </a> </p>
+	
+	<p> <a th:href="@{/locale(language=es)}" th:text=#{index.locale.es}> Spanish </a> </p>
+
+	<h1 th:text=#{index.hello(${channel})}> text </h1>
+	
+	<h1 th:text="#{index.welcome.message}"> welcome message </h1>
+
+</body>
+</html>

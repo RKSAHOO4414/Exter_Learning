@@ -1,0 +1,13 @@
+package com.my.sprringSecurityLogin;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class SprringSecurityLoginApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}

@@ -1,0 +1,30 @@
+package com.my.excelExport.controller;
+
+import java.io.IOException;
+
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.my.excelExport.repository.StudentRepository;
+
+@Controller
+public class HomeController {
+	
+	@RequestMapping("/home")
+	public String homePage() {
+		return "HomePage";
+	}
+	
+	@Autowired
+	private StudentRepository studentRepository;
+	
+	public void exportToExcel(HttpServletResponse response) throws IOException{
+		response.setContentType("application/octet-stream");
+		String 
+		String headervalue = "attachment; filename=Student_info.xlsx";
+	}
+	
+}

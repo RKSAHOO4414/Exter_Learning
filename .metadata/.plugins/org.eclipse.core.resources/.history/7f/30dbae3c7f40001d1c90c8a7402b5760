@@ -1,0 +1,15 @@
+package com.my.excelExport.model;
+
+public class Student {
+	
+	private long sid;
+	
+	private String sname;
+	
+	private String saddress;
+	
+	private String scity;
+	
+	
+	
+}

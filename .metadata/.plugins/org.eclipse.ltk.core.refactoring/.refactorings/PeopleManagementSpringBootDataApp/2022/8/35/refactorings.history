@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.infotech.app.service.PeopleManagement&apos; to &apos;PeopleManagementService&apos;&#x0D;&#x0A;- Original project: &apos;PeopleManagementSpringBootDataApp&apos;&#x0D;&#x0A;- Original element: &apos;com.infotech.app.service.PeopleManagement&apos;&#x0D;&#x0A;- Renamed element: &apos;com.infotech.app.service.PeopleManagementService&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;PeopleManagement&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java&lt;com.infotech.app.service{PeopleManagement.java[PeopleManagement" matchStrategy="1" name="PeopleManagementService" qualified="false" references="true" similarDeclarations="false" stamp="1661494275123" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,20 @@
+package com.my.springboot.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.my.springboot.model.Employee;
+import com.my.springboot.repository.EmployeeRepository;
+
+public class EmployeeServiceImpl implements EmployeeService {
+
+	@Autowired
+	private EmployeeRepository employeeRepository;
+	
+	@Override
+	public List<Employee> getAllEmployees() {
+		return employeeRepository.findAll();
+	}
+	
+}

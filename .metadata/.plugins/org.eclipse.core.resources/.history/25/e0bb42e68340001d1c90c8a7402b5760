@@ -1,0 +1,24 @@
+package com.my.excelExport.excel;
+
+import java.util.List;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+import com.my.excelExport.model.Student;
+
+public class UserExcelExporter {
+	
+	private XSSFWorkbook workbook;
+	
+	private XSSFSheet sheet;
+	
+	private List<Student> listStudent;
+
+	public UserExcelExporter(List<Student> listStudent) {
+		
+		
+	}
+	
+	
+}

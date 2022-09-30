@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\youtube springboot\springboot-ecommerce-step-by-step-main\Ecommerce-Springboot"/>
+			<item value="D:\youtube springboot\springboot-ecommerce-step-by-step-main\Ecommerce-Springboot\Admin"/>
+			<item value="D:\youtube springboot\examserver"/>
+			<item value="D:\youtube springboot\sprringSecurityDemoLogin"/>
+			<item value="D:\youtube springboot\sprringSecurityLogin"/>
+			<item value="D:\youtube springboot\springboot-dto-tutorial"/>
+			<item value="D:\youtube springboot\springboot-dto-demo"/>
+			<item value="D:\youtube springboot\Spring-jsp-Demo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>
