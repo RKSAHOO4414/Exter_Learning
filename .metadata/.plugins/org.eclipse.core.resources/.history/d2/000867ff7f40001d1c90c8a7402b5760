@@ -1,5 +1,0 @@
-package com.my.excelExport.repository;
-
-public interface StudentRepository {
-
-}
